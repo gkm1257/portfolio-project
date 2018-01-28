@@ -1,0 +1,40 @@
+header {
+    border-bottom-style: solid;
+}
+
+.projects {
+    height: 210px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+
+/* For desktop */
+@media (min-width: 992px) {
+    .projects {
+        height: 290px;
+    }
+}
+@media (min-width: 1200px) {
+    .projects {
+        height: 340px;
+    }
+}
+/* For portrait phone */
+@media (max-width: 400px) {
+    #name>h1 {
+        font-size: 30px;
+    }
+    #name>h3 {
+        font-size: 20px;
+    }
+}
+@media (min-width: 401px) and (max-width: 450px) {
+    #name>h1 {
+        font-size: 34px;
+    }
+    #name>h3 {
+        font-size: 24px;
+    }
+}
